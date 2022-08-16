@@ -1,7 +1,0 @@
-#!/bin/bash
-
-git init
-git add .
-git commit -m "init commit"
-git branch -M main
-git remote add origin https://github.com/dash-sarthak/programming-practice.git
