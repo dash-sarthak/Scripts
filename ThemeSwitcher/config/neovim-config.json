@@ -1,0 +1,10 @@
+{
+    "init": {
+        "location": "/home/sarthak/.config/nvim/init.lua",
+        "line": 9
+    },
+    "lualine": {
+        "location": "/home/sarthak/.config/nvim/lua/lualine-config/init.lua",
+        "line": 6
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "commands": {
+        "gtk-theme": "gsettings set org.gnome.desktop.interface gtk-theme ",
+        "icon-theme": " gsettings set org.gnome.desktop.interface icon-theme "
+    }
+}
