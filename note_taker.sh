@@ -1,13 +1,10 @@
 #!/bin/sh
 
-file_name="$HOME/Notes/note-$(date +%d-%m-%Y).md"
+file_name="$HOME/Documents/Notes/notes/note-$(date +%d-%m-%Y).md"
 
 if [ ! -f $file_name ]; then
-    echo "# Notes for $(date +%Y-%m-%d)" > $file_name
+    echo -e "---\ntitle: Note\nauthor: Sarthak Dash\ndate: $(date +%Y-%m-%d)\n---\n" > $file_name
 fi
 
-nvim -c "norm Go" \
-    -c "norm Go## $(date +%H:%M)" \
-    -c "norm Go" \
-    -c "norm zz" \
-    -c "startinsert" $file_name
+gnome-text-editor -n $file_name
+
